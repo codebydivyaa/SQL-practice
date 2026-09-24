@@ -1,1 +1,6 @@
+-- count
+SELECT COUNT(*) AS total_products
+FROM products;
 
+
+ 
