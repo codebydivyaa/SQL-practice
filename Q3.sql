@@ -23,6 +23,6 @@ VALUES
 (108, 'Noah', 'Thompson', 'IT', 7500, '2023-02-12'),
 (109, 'Ava', 'Martinez', 'Marketing', 5100, '2019-12-02'),
 (110, 'Ethan', 'Davis', 'Finance', 8000, '2016-05-14');
-
+SELECT *FROM employee;
 
 
