@@ -25,4 +25,5 @@ VALUES
 (110, 'Ethan', 'Davis', 'Finance', 8000, '2016-05-14');
 SELECT *FROM employee;
 
-
+-- SELECT FILTERED COLUMN THAT ARE MENTIONED IN QUETIONS
+SELECT FirstName, LastName,Salary FROM employee;
