@@ -35,3 +35,22 @@ WHERE Department='IT';
 
 SELECT *FROM employee
 WHERE Salary>6000;
+
+SELECT *FROM employee
+ORDER BY HireDate DESC;  
+
+SELECT DISTINCT Department
+FROM employee;
+ SELECT *FROM employee
+ WHERE FirstName LIKE "A%";
+ 
+ SELECT *FROM employee
+ WHERE Salary BETWEEN 4000 AND 7000;
+ 
+ SELECT AVG(Salary)
+ FROM employee;
+ 
+ SELECT Department, COUNT(*) AS Numberofemployee
+ FROM employee
+ GROUP BY Department
+HAVING COUNT(*)>2;
