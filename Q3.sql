@@ -31,3 +31,7 @@ SELECT FirstName, LastName,Salary FROM employee;
 --  ALL THE EMPLOYEE WHO ARE WORK IN IT DEPARTMENTS
 SELECT *FROM employee
 WHERE Department='IT';
+
+
+SELECT *FROM employee
+WHERE Salary>6000;
